@@ -1,0 +1,1 @@
+Portfólio criado com o objetivo de apresentar minhas qualificações e habilidades em desenvolvimento além de outras atividades envolvendo meus interesses em tecnologia.

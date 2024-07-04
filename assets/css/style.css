@@ -1,0 +1,157 @@
+/*Font*/
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*reset*/
+body,html{
+    height: 100%;
+}
+
+body{
+    background: rgb(0, 0, 0);
+    font-family: "Kanit", "Helvetica", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+/*customização das sessões*/
+.active{
+    color:aqua!important;
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.9em!important;
+}
+
+#home{
+    height: 100%;
+    padding-top: 49px;
+    
+    overflow-y: hidden;
+}
+
+#sobre, #projetos, #certificacoes{
+    height: 100%;
+    padding-top: 90px;
+}
+
+/*Barra de navegação*/
+nav.navbar-black{
+    padding: 15px, 0px;
+    background: black;
+    box-shadow: 0px 3px 0px rgba(255, 255, 255, 0.1);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.nav-link{
+   /* color:aqua;
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.9em;*/
+    margin-right: 1.5em;
+    color:rgba(2, 20, 20, 0.2);
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.1em;
+
+}
+
+.nav-link:hover{
+    /*color:rgba(0, 255, 255, 0.5);
+    color:rgba(2, 20, 20, 0.5);
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.1em;
+    */
+    color:aqua;
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.9em;
+}
+
+.navbar-toggler{
+    color: aqua;
+    border-color:aqua;
+}
+
+.divisor{
+    width: 3.5px;
+    background:  aqua;/*rgba(0, 255, 255, 0.7); */
+    box-shadow: 0px 0px 8px 1.5px rgb(95, 255, 255);
+    margin: 10px 26px 10px 0px;
+    animation: blink-neon 1s alternate infinite ease-in-out;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+}
+
+/*Seções*/
+.softblack{
+    background: rgb(15, 15, 15);
+}
+
+/*Customizações*/
+.text-dev{
+    color:rgba(0, 255, 255, 0.9); 
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.08em;
+    display:flex;
+    font-family:"anton",sans-serif;
+}
+
+.blink-cursor{
+    color: aqua;
+    /*display: block;*/
+    border-right: 5px solid aqua;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 15s steps(3, end) infinite;
+}
+
+/*Animação de digitação "...|" do texto "Desenvolvedor Fullstack" */
+@keyframes mark{
+    50%{
+        border-right-color: transparent;
+    }
+}
+@keyframes write{
+    5%{ /*Apaga em 5% do tempo*/
+        width: 0.00ch;
+    }
+
+    15%{ /*Escreve o texto em 15% do tempo*/
+        width: 1.6ch;
+    }
+
+    90%{ /*Fica 90% do tempo definido mostrando o texto (...)*/
+        width: 1.6ch;
+    }
+}
+
+/* Animação do divisor do menu principal piscando*/
+@keyframes blink-neon{
+    0%{
+        background: aqua;/*rgba(0, 255, 255, 0.7); rgba(2, 20, 20, 0.5);*/
+        box-shadow: 0px 0px 10px 2px rgb(95, 255, 255);
+    }
+    5%{
+        background: rgba(0, 255, 255, 0.7); 
+        box-shadow: 0px 0px 5px 0.5px rgb(95, 255, 255);
+    }
+    50%{
+        background: aqua;/*rgba(0, 255, 255, 0.7); rgba(2, 20, 20, 0.5);*/
+        box-shadow: 0px 0px 8px 2px rgb(95, 255, 255);
+    }
+    30%{
+        background: rgba(0, 255, 255, 0.7); 
+        box-shadow: 0px 0px 5px 0.5px rgb(95, 255, 255);
+    }
+    25%{
+        background: aqua;/*rgba(0, 255, 255, 0.7); rgba(2, 20, 20, 0.5);*/
+        box-shadow: 0px 0px 8px 2px rgb(95, 255, 255);
+    }
+    5%{
+        background: aqua;/*rgba(0, 255, 255, 0.7); rgba(2, 20, 20, 0.5);*/
+        box-shadow: 0px 0px 8px 2px rgb(95, 255, 255);
+    }
+}
+
+/*
+https://codepen.io/ghepting/pen/vYLqgr - assinatura
+https://codepen.io/rgg/pen/ozLzbz - animação de sombra
+http://fonts.googleapis.com/css?family=Anton:regular%7CWork+Sans:regular,500
+*/
+
