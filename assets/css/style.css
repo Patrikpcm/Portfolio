@@ -85,6 +85,47 @@ nav.navbar-black{
 }
 
 /*Customizações*/
+.card{
+    margin: .7em;
+    border: 2px solid aqua;
+    border-radius: 2%;
+    box-shadow: rgb(95, 255, 255) 0em 0em 0.9em;
+    background: black;
+}
+
+.carousel-prev-icon, .carousel-next-icon{
+    background-color: aqua;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 102%;
+}
+.carousel-prev-icon{
+    left: 31.7%;
+}
+.carousel-next-icon{
+    right:31.7%;
+}
+
+.carousel .active{
+    text-shadow: none!important;
+}
+
+.card-title{
+    color:rgb(95, 255, 255);
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.1em;
+}
+
+.card-text{
+    color: white;
+    margin: .2em;
+}
+
+.card-text>b{
+    color: rgba(0, 255, 255, 0.5);
+    margin: .2em;
+}
+
 .certificado{
     border:2px solid aqua;
     box-shadow: rgba(95, 255, 255, 0.8) 0em 0em 2em;
@@ -171,21 +212,4 @@ fonte: https://codingyaar.com/bootstrap-carousel-multiple-items-increment-by-1/
       flex: 0 0 33.333333%;
       display: block;
     }
-}
-
-.carousel-inner{
-    padding: 1em;
-}
-.card{
-    margin: 0 .5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-}
-.carousel-control-prev, .carousel-control-next{
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
 }
