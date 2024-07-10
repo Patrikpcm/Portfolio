@@ -26,6 +26,7 @@ $(function(){
 
 /*
 CAROUSEL COM MÚLTIPLOS ITENS
+fonte: https://codingyaar.com/bootstrap-carousel-multiple-items-increment-by-1/
 */
 //To get the entire width of the carousel, use scrollWidth.
 var carouselWidth = $(".carousel-inner")[0].scrollWidth;
@@ -51,7 +52,7 @@ $(".carousel-control-prev").on("click", function () {
 
 //parar o ciclo contínuo
 var multipleCardCarousel = document.querySelector(
-    "#carouselExampleControls"
+    "#carouselCertificacoes"
 );
 if (window.matchMedia("(min-width: 768px)").matches) {
     //rest of the code

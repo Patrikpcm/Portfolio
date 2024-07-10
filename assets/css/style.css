@@ -126,6 +126,12 @@ nav.navbar-black{
     margin: .2em;
 }
 
+.contorno-caixa{
+    border: 2px solid aqua;
+    border-radius: 1%;
+    box-shadow: rgb(95, 255, 255) 0em 0em 0.9em;
+}
+
 .certificado{
     border:2px solid aqua;
     box-shadow: rgba(95, 255, 255, 0.8) 0em 0em 2em;
@@ -141,6 +147,22 @@ nav.navbar-black{
     /*text-shadow:rgba(95, 255, 255, 0.8) 0em 0em 0.7em;*/
     display:flex;
     font-family:"anton",sans-serif;
+}
+
+.text-projetos{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.links{
+    text-decoration: none;
+    color:rgba(2, 20, 20, 0.2);
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.1em;
+    margin-left: 2em;
+}
+ 
+.links:hover{
+    color:aqua;
+    text-shadow:rgb(95, 255, 255) 0em 0em 0.9em;
 }
 
 .blink-cursor{
