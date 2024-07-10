@@ -45,7 +45,6 @@ $(".carousel-control-next").on("click", function () {
 $(".carousel-control-prev").on("click", function () {
     if (scrollPosition > 0) {
         scrollPosition -= cardWidth;
-        console.log(scrollPosition);
         $(".carousel-inner").animate({ scrollLeft: scrollPosition },600);
     }
 });
