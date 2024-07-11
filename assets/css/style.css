@@ -149,12 +149,19 @@ nav.navbar-black{
     font-family:"anton",sans-serif;
 }
 
-.text-projetos{
-    background-color: rgba(0, 0, 0, 0.8);
+.projeto-background{
+    background-color: rgba(0, 255, 255, 0.8);
+    color: black;
 }
+
+.text-projeto{
+    font-size: 1.3em;
+}
+
 
 .links{
     text-decoration: none;
+    font-size: 1.2em;
     color:rgba(2, 20, 20, 0.2);
     text-shadow:rgb(95, 255, 255) 0em 0em 0.1em;
     margin-left: 2em;
