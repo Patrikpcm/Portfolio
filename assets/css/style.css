@@ -29,7 +29,7 @@ body{
     overflow-y: hidden;
 }
 
-#sobre, #projetos, #certificacoes{
+#sobre, #projetos, #certificacoes, #contato{
     height: 100%;
     padding-top: 90px;
 }
@@ -85,6 +85,18 @@ nav.navbar-black{
 }
 
 /*Customizações*/
+.btn-aqua{
+    color: white;
+    font-weight: bolder;
+    background:rgba(95, 255, 255, 0.466);
+    box-shadow:rgb(95, 255, 255) 0em 0em 0.5em;
+    
+}
+
+.btn-aqua:hover{
+    background:rgba(0, 255, 255, 0.9);   
+}
+
 .card{
     margin: .7em;
     border: 2px solid aqua;
@@ -157,7 +169,6 @@ nav.navbar-black{
 .text-projeto{
     font-size: 1.3em;
 }
-
 
 .links{
     text-decoration: none;
