@@ -175,7 +175,7 @@ nav.navbar-black{
     font-size: 1.2em;
     color:rgba(2, 20, 20, 0.2);
     text-shadow:rgb(95, 255, 255) 0em 0em 0.1em;
-    margin-left: 2em;
+    /*margin-left: 2em;*/
 }
  
 .links:hover{
