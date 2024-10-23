@@ -68,14 +68,20 @@
     <section id="home" class="d-flex softblack">
         <div class="container align-self-center">
             <div class="row">
-                <div class="col-md-6 align-self-center">
+                <div class="col-md-6 align-self-center justify-content-center">
                     <h1 class="display-1 anton-regular">PATRIK LUIZ GOGOLA</h1>
                     <h2 class="display-4 text-dev">
-                        Desenvolvedor Fullstack<span class="blink-cursor d-none d-xxl-block">...</span>
+                        Desenvolvedor Fullstack<span class="blink-cursor d-none d-xxl-block d-flex justify-content-around">...</span>
                     </h2>
+                    
+                    <div style="margin-top: 150px;">
+                        <span class="fst-italic">
+                            "É o trabalho que nunca se começa que mais tempo leva a terminar."  
+                        </span> - J.R.R. Tolkien
+                    </div>
                 </div>
 
-                <div class="col-md-6 d-none d-xl-block">
+                <div class="col-md-6 d-none d-md-block">
                     <canvas id="canvas"></canvas>
                 </div>
 
@@ -290,26 +296,27 @@
 
     <footer id="contato" class="softblack d-flex">
        <div class="container align-self-center">
-            <div class="row">
-                
+            <div class="row">         
                 <div class="col-md-8 align-self-center">
-                    <form class="mb-5" action="">
+                    <form class="mb-5" action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="461d385b-a798-4448-8c2e-7ac2aa55fd81">
                         <h2 class="text-dev">Entre em contato</h2>
                         <div class="mb-3">
-                            <input class="form-control form-control-md" type="text" id="usuario" required placeholder="Digite seu nome completo">
+                            <input class="form-control form-control-md" type="text" name="$usuario" id="usuario" required placeholder="Digite seu nome completo">
                         </div>
                         <div class="mb-3">
-                            <input class="form-control form-control-md" type="email" id="email" required placeholder="Digite seu email">
+                            <input class="form-control form-control-md" type="email" name="$email" id="email" required placeholder="Digite seu email">
                         </div>
                         <div class="mb-3">
-                            <input class="form-control form-control-md" type="text" id="usuario" required placeholder="Digite o assunto">
+                            <input class="form-control form-control-md" type="text" name="$assunto" id="assunto" required placeholder="Digite o assunto">
                         </div>
                         <div class="mb-3">
-                           <textarea class="form-control form-control-md" id="mensagem" rows="8" placeholder="Digite sua mensagem..."></textarea>
+                           <textarea class="form-control form-control-md" id="mensagem" name="message" rows="8" placeholder="Digite sua mensagem..."></textarea>
                         </div>
+                        <input type="hidden" name="redirectTo" value="https://www.patrikgogola.com.br/#home">
                         <button type="submit" class="btn btn-aqua">Enviar</button>
                     </form>
-                </div><!--Fim da primeira coluna -Formulario-->
+                </div><!--Fim da primeira coluna (Formulario) -->
 
                 <div class="col-md-4 d-none d-xl-block align-self-center mb-5">
                     <div class="col-md-12 ms-5">   
