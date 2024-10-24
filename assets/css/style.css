@@ -29,7 +29,7 @@ body{
     overflow-y: hidden;
 }
 
-#sobre, #projetos, #certificacoes, #contato{
+#sobre, #projetos, #certificacoes, #contato, #sended{
     height: 100%;
     padding-top: 90px;
 }
